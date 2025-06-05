@@ -81,3 +81,39 @@ li {
 button {
   cursor: pointer;
 }
+
+/*style header
+-------------------------------*/
+
+.header {
+padding: 16px 0 15px;
+max-width: 1064px;
+margin: 0 auto;
+display: flex;
+}
+
+.menu__list, .header__options {
+  display: flex; 
+}
+
+.header__logo__img {
+  margin-left: 83px;
+}
+
+.header_options {
+  margin-left: 379px;
+}
+
+.header__options__search {
+  margin: 0 7px 0 15.93px;
+}
+
+.header__options__link > svg {
+  width: 21px;
+  margin-top: 18px;
+}
+
+p {
+  font-size: 24px;
+  width: 481px;
+}
