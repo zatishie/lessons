@@ -72,6 +72,7 @@
 
 a {
   text-decoration: none;
+  color:#000;
 }
 
 li {
@@ -80,6 +81,11 @@ li {
 
 button {
   cursor: pointer;
+  background-color: transparent;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
 }
 
 /*style header
@@ -88,16 +94,30 @@ button {
 .header {
 padding: 16px 0 15px;
 max-width: 1064px;
+max-height: 56px;
 margin: 0 auto;
 display: flex;
+/*align-content:center; как вариант использоваь для выравнивания элементов по поперечной оси, если не заострять внимание на отступы по макету*/
 }
 
-.menu__list, .header__options {
+.menu__list, .header_options {
   display: flex; 
+}
+
+.menu__list {
+  gap: 28px;
+}
+
+.menu__item {
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
 }
 
 .header__logo__img {
   margin-left: 83px;
+  max-width: 85px;
+  
 }
 
 .header_options {
@@ -105,13 +125,20 @@ display: flex;
 }
 
 .header__options__search {
-  margin: 0 7px 0 15.93px;
+  margin: -8px 7px -7px 15px;
 }
 
 .header__options__link > svg {
   width: 21px;
-  margin-top: 18px;
+  margin: 2px 0 3px 0;
 }
+
+.header__options__cart {
+  margin: -8px 0 -7px 0;
+}
+
+/**/
+
 
 p {
   font-size: 24px;
