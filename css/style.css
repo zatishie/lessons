@@ -91,6 +91,8 @@ body {
 /*style header
 -------------------------------*/
 
+/*оказывается шапку не надо было:)*/
+
 .header {
 padding: 16px 0 15px;
 max-width: 1064px;
@@ -142,6 +144,7 @@ display: flex;
 
 .content {
 background-color:#F0EFEB;
+min-width: 1064px;
 }
 
 .preview {
@@ -176,12 +179,11 @@ padding: 7px 23px 9px 23px;
 background-color: #000;
 border: 1px solid #000;
 border-radius: 100px;
-
-
 }
 
 .preview__image {
 display:block;
 max-width: 599px;
 height: auto;
+margin-right: 60px;
 }
