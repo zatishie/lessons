@@ -1,0 +1,100 @@
+@import url(https://fonts.google.com/share?selection.family=Montserrat:ital,wght@0,100..900;1,100..900);
+@import url(https://fonts.google.com/share?selection.family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000|Montserrat:ital,wght@0,100..900;1,100..900);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+header,.content {
+  display: flex;
+  width: calc(50%-600px);
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+li {
+  list-style: none;
+}
+
+.logo, .main__header, .main__text {
+  font: normal 700 24px 'Montserrat', sans-serif;
+}
+
+.logo {
+  color: #244D4D;
+}
+
+.menu__list
+{
+  font: normal 400 16px 'DM Sans', sans-serif;
+  color: #161616;
+  display: flex;
+  margin: 4px 0 0 217px;
+  gap: 50px;
+  
+}
+
+.button__search {
+margin: 3px 30px 0 auto;
+}
+
+.button__menu {
+  margin-top: 3px;
+}
+
+.content {
+  display: flex;
+}
+
+.image {
+  width: 30.4vw;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  margin-top: 27px;
+}
+
+.main__section {
+  background-color: #154444;
+  width: 69.6vw;
+  padding: 101px 18px 228px 100px;
+}
+
+.main__header, .main__text {
+  color: #fff;
+}
+
+.main__header {
+  font-size: 56px;
+}
+
+.main__text, .main__button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.main__button {
+
+width: 170px;
+height: 56px;
+background-color: #FFFFFF;
+margin-top: 35px;
+color: #154444;
+}
+
+
