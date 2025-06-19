@@ -14,7 +14,7 @@ button {
   background-color: transparent;
 }
 
-header,.content {
+.header,.content {
   display: flex;
   width: calc(50%-600px);
 }
