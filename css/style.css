@@ -10,6 +10,7 @@
 
 body {
   font: normal 400 16px 'Montserrat', sans-serif;
+  max-width: 1440px;
 }
 
 li {
@@ -35,7 +36,6 @@ header {
   max-width: 1440px;
   width: 100%;
   flex:1 1 400px; object-fit:cover;
-
 }
 
 .logo {
