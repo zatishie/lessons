@@ -1,0 +1,112 @@
+@import url(https://fonts.google.com/share?selection.family=Open+Sans:ital,wght@0,300..800;1,300..800);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F8FC;
+}
+
+h2, .name, .person__description {
+  font: normal 600 40px "Open Sans", sans-serif;
+  color: #333;
+}
+
+h2 {
+  margin: 100px 0 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.underline {
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #2B9AD6; /* голубая линия */
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+img {
+  max-width: 224px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 130px;
+  margin: 60px 250px 0 250px;
+   max-width: 1168px;
+}
+
+.cards:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 69px; 
+}
+
+.person__card {
+  width: 224px;
+  height: 330px;
+}
+
+.person__card:hover {
+  width: 293px;
+  height: 361px;
+}
+
+.person__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+  color: #194F94;
+}
+
+.person__description {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 17px;
+  color: #5F5F5F;
+}
+
+.avatar__wrapper {
+  position: relative;
+  width:100%; 
+  max-width: 224px;
+}
+
+.linkedin__icon {
+  position: absolute;
+  bottom: 10px;
+  left: 149px;
+  width: 50px;
+  height: 50px;
+  background-color: #194F94;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkedin__icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.icon__background {
+  display: none;
+}
