@@ -69,7 +69,7 @@ h2 {
   font-weight: bold;
 }
 
-p, ol, ul, h2, h3 {
+p, ol, ul, li, h2, h3 {
   margin-bottom: 16px;
 }
 
