@@ -91,15 +91,12 @@ body {
 /*style header
 -------------------------------*/
 
-/*оказывается шапку не надо было:)*/
-
 .header {
 padding: 16px 0 15px;
 max-width: 1064px;
 max-height: 56px;
 margin: 0 auto;
 display: flex;
-/*align-content:center; как вариант использоваь для выравнивания элементов по поперечной оси, если не заострять внимание на отступы по макету*/
 }
 
 .menu__list, .header_options {
