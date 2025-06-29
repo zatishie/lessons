@@ -14,9 +14,9 @@ button {
   background-color: transparent;
 }
 
-.header,.content {
+header,.content {
   display: flex;
-  width: calc(50%-600px);
+  width: calc(50%-300px);
 }
 
 a {
@@ -36,14 +36,12 @@ li {
   color: #244D4D;
 }
 
-.menu__list
-{
+.menu__list {
   font: normal 400 16px 'DM Sans', sans-serif;
   color: #161616;
   display: flex;
   margin: 4px 0 0 217px;
   gap: 50px;
-  
 }
 
 .button__search {
