@@ -81,7 +81,7 @@ ul {
 
 ul li {
   position: relative;
-  padding-left: 20px;
+  text-indent: 15px;
   margin-bottom: 16px;
 }
 
@@ -89,15 +89,21 @@ ul li::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.25em;
-  width: 13px;
-  height: 13px;
-  background-color: #3e3d63;
+  top: 0.3em;
+  width: 12px;
+  height: 12px; 
+  background-color: #434364;
   border-radius: 50%;
 }
 
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 ol li {
-  margin-left: 1.2em;
+  margin-bottom: 16px;
 }
 
 .preview_text, .last_text {
@@ -110,3 +116,16 @@ footer {
   background-color: #828CDE;
   margin-top: 60px;
 }
+
+/*
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 13px;
+  height: 13px;
+  background-color: #3e3d63;
+  border-radius: 50%;
+}
+  */
