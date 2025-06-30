@@ -1,10 +1,105 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8" />
-    <title>Lesson_1</title>
+    <title>Lesson_7</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
 <body>
-    
+    <section class="form_title">
+        <h1>Форма заявки на работу в зоопарке</h1>
+        <p>Пожалуйста заполните форму. Обязательные поля помечены<span class="star">*</span></p>
+    </section>
+
+    <form class="form">
+        <fieldset class="form__field">
+            <legend>Контактная информация</legend>
+            <label class="label__form">
+                <span>Имя</span>
+                <span class="star">*</span>
+                <input type="text" class="form__input" name="user-name">
+            </label>
+
+            <label class="label__form">
+                <span>Телефон</span>
+                <input type="tel" class="form__input" name="user-phone">
+            </label>
+
+            <label class="label__form">
+                <span>Email</span>
+                <span class="star">*</span>
+                <input type="email" class="form__input" name="user-mail">
+            </label>
+        </fieldset>
+
+        <fieldset class="form__field">
+            <legend>Персональная информация</legend>
+            <label class="label__form">
+                <span>Возраст</span>
+                <span class="star">*</span>
+                <input type="number" class="form__input" name="user-age" min="18">
+            </label>
+
+            <label class="label__form">
+                <span>Пол</span>
+                <span class="star">*</span>
+                <select name="user-gender" class="form__input">
+                    <optgroup label="">
+                        <option value="Мужчина">Мужчина</option>
+                        <option value="Женщина">Женщина</option>
+                    </optgroup>
+                </select>
+            </label>
+
+            <label class="label__form">
+                <span class="area__title">Перечислите личные качества</span>
+                <textarea class="form__text" name="user-character" id=""></textarea>
+            </label>
+        </fieldset>
+
+        <fieldset class="form__field">
+            <legend>Выберите ваших любимых животных</legend>
+            <div class="form_wrap">
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Зебра</span>
+                </label>
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Кошак</span>
+                </label>
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Анаконда</span>
+                </label>
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Человек</span>
+                </label>
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Слон</span>
+                </label>
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Антилопа</span>
+                </label>
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Голубь</span>
+                </label>
+                <label class="label__form">
+                    <input type="checkbox" class="form__checkbox" name="user-chooise">
+                    <span>Краб</span>
+                </label>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Отправить информацию">
+    </form>
+
 </body>
-</html> 
+
+</html>
